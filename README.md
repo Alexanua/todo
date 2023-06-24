@@ -66,7 +66,7 @@ Copy code
 mvn exec:java
 Note: Make sure you have Java Development Kit (JDK) installed on your machine.
 
-The Todo app should now be running locally. Open your web browser and visit http://localhost:8080 to access the app.
+The Todo app should now be running locally. 
 
 Please make sure you have the necessary prerequisites installed and configured correctly
 before proceeding with the installation steps. Refer to the project's documentation for
