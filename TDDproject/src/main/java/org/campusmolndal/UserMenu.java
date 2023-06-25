@@ -3,13 +3,13 @@ package org.campusmolndal;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class Menu {
+public class UserMenu {
     private UserService userService;
     private Scanner scanner;
 
-    public Menu() {
-        userService = new UserService(new DatabaseHandler());
-        scanner = new Scanner(System.in);
+    public UserMenu(UserService userService, Scanner scanner) {
+        this.userService = userService;
+        this.scanner = scanner;
     }
 
     public void start() {
@@ -112,10 +112,5 @@ public class Menu {
         userService.updateUser(user);
 
         System.out.println("User updated successfully.");
-    }
-
-    public static void main(String[] args) {
-        Menu menu = new Menu();
-        menu.start();
     }
 }

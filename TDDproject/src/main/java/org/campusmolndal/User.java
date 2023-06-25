@@ -7,6 +7,7 @@ public class User {
     private String name;
     private int age;
     private LocalDate registerDate;
+    String user = "Användarnamn";
 
     public User() {
     }
