@@ -25,15 +25,17 @@ learned how to perform basic database operations such as inserting, updating, an
 I also learned how to write unit tests using JUnit and Mockito to ensure the correctness of my code and simulate interactions with the database. Additionally, I enhanced my understanding of software design principles and best practices, such as separating concerns and maintaining code modularity.
 
 
- [x] Fullt fungerande TODO applikation som kan hantera TODO i kommandotolken.
- [x] Fullt fungerande tester för er applikation.
- [x] Fullt fungerande mockning av beroenden i era tester.
- [ ] Fullt fungerande tester genom CI på Github
- [ ] Fullt fungerande JavaFX applikation som visar upp allt på ett snyggt sätt (frivilligt)
- [x] Todo ska existera i en databas, antingen MongoDB eller SQLite.
- [x] jag använder JUnit5, Mockito samt JSON In Java.
- [x] jag  använder Maven för att bygga ert projekt.
-  []  använda Github Actions för att testa ert projekt.
+## Project Status
+- [x] Fully functioning TODO application that can handle TODOs from the command line.
+- [x] Fully functioning tests for the application.
+- [x] Fully functioning mocking of dependencies in the tests.
+- [ ] Fully functioning tests through CI on Github.
+- [ ] Fully functioning JavaFX application that displays everything in a neat way (optional).
+- [x] Todo exists in a database, either MongoDB or SQLite.
+- [x] I use JUnit5, Mockito, and JSON In Java.
+- [x] I use Maven to build the project.
+- [ ] Use Github Actions to test the project.
+
 
 
 
@@ -122,30 +124,30 @@ If you used any third-party assets that require attribution, list the creators w
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [MIT License](https://choosealicense.com/licenses/mit/).
+- The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [MIT License](https://choosealicense.com/licenses/mit/).
 
-Maven: ch.qos.logback:logback-classic:1.4.8
-Maven: ch.qos.logback:logback-core:1.4.8
-Maven: com.beust:jcommander:1.82
-Maven: junit:junit:4.12
-Maven: net.bytebuddy:byte-buddy-agent:1.14.4
-Maven: net.bytebuddy:byte-buddy:1.14.4
-Maven: org.apiguardian:apiguardian-api:1.1.2
-Maven: org.hamcrest:hamcrest-core:1.3
-Maven: org.json:json:20230227
-Maven: org.junit.jupiter:junit-jupiter-api:5.9.3
-Maven: org.junit.jupiter:junit-jupiter-engine:5.9.3
-Maven: org.junit.platform:junit-platform-commons:1.9.3
-Maven: org.junit.platform:junit-platform-engine:1.9.3
-Maven: org.mockito:mockito-core:5.3.1
-Maven: org.mongodb:bson-record-codec:4.9.1
-Maven: org.mongodb:bson:4.9.1
-Maven: org.mongodb:mongodb-driver-core:4.9.1
-Maven: org.mongodb:mongodb-driver-sync:4.9.1
-Maven: org.objenesis:objenesis:3.3
-Maven: org.opentest4j:opentest4j:1.2.0
-Maven: org.slf4j:slf4j-api:2.0.7
-Maven: org.testng:testng:7.8.0
-Maven: org.webjars:jquery:3.6.1
-Maven: org.xerial:sqlite-jdbc:3.42.0.0
-Please refer to the documentation of these libraries for more information on their usage and licensing terms.
+- Maven: ch.qos.logback:logback-classic:1.4.8
+- Maven: ch.qos.logback:logback-core:1.4.8
+- Maven: com.beust:jcommander:1.82
+- Maven: junit:junit:4.12
+- Maven: net.bytebuddy:byte-buddy-agent:1.14.4
+- Maven: net.bytebuddy:byte-buddy:1.14.4
+- Maven: org.apiguardian:apiguardian-api:1.1.2
+- Maven: org.hamcrest:hamcrest-core:1.3
+- Maven: org.json:json:20230227
+- Maven: org.junit.jupiter:junit-jupiter-api:5.9.3
+- Maven: org.junit.jupiter:junit-jupiter-engine:5.9.3
+- Maven: org.junit.platform:junit-platform-commons:1.9.3
+- Maven: org.junit.platform:junit-platform-engine:1.9.3
+- Maven: org.mockito:mockito-core:5.3.1
+- Maven: org.mongodb:bson-record-codec:4.9.1
+- Maven: org.mongodb:bson:4.9.1
+- Maven: org.mongodb:mongodb-driver-core:4.9.1
+- Maven: org.mongodb:mongodb-driver-sync:4.9.1
+- Maven: org.objenesis:objenesis:3.3
+- Maven: org.opentest4j:opentest4j:1.2.0
+- Maven: org.slf4j:slf4j-api:2.0.7
+- Maven: org.testng:testng:7.8.0
+- Maven: org.webjars:jquery:3.6.1
+- Maven: org.xerial:sqlite-jdbc:3.42.0.0
+  Please refer to the documentation of these libraries for more information on their usage and licensing terms.
