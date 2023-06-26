@@ -31,7 +31,7 @@ I also learned how to write unit tests using JUnit and Mockito to ensure the cor
 - [x] Fully functioning mocking of dependencies in the tests.
 - [ ] Fully functioning tests through CI on Github.
 - [ ] Fully functioning JavaFX application that displays everything in a neat way (optional).
-- [x] Todo exists in a database, either MongoDB or SQLite.
+- [x] Todo exists in a database, SQLite.
 - [x] I use JUnit5, Mockito, and JSON In Java.
 - [x] I use Maven to build the project.
 - [ ] Use Github Actions to test the project.
