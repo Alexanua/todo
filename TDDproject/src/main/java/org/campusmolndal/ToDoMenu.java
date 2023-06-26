@@ -84,7 +84,7 @@ public class ToDoMenu {
             System.out.print("Enter item category: ");
             String category = scanner.nextLine();
 
-            toDoService.createToDoItem(id, text, done, assignedUserId, category);
+            toDoService.createToDoItem(id, text, done,  assignedUserId , category);
             System.out.println("New item added successfully.");
         } catch (NumberFormatException e) {
             System.out.println("Invalid input. Please enter a valid number.");

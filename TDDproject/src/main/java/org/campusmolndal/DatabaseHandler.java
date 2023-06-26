@@ -48,11 +48,10 @@ public class DatabaseHandler {
     }
 
 
-    /**
-     * Lägger till en ny användare i databasen.
-     *
-     * @param user Användaren att lägga till
-     */
+
+     // Lägger till en ny användare i databasen.
+
+
     public void insertUser(User user) {
         String sql = "INSERT INTO User(id, name, age, registerDate) VALUES(?, ?, ?, ?)";
 
@@ -69,13 +68,10 @@ public class DatabaseHandler {
         }
     }
 
-    // ... övriga metoder för att hantera användardata i databasen
 
-    /**
-     * Tar bort en användare från databasen baserat på användarid.
-     *
-     * @param userId Användarid för att ta bort användaren
-     */
+
+     // Tar bort en användare från databasen baserat på användarid.
+
     public void deleteUser(int userId) {
         String sql = "DELETE FROM User WHERE id = ?";
 
@@ -114,12 +110,9 @@ public class DatabaseHandler {
     }
 
 
-    /**
-     * Hämtar en användare från databasen baserat på användarid.
-     *
-     * @param userId Användarid för att hämta användaren
-     * @return Användaren om den hittas, annars null
-     */
+
+     // Hämtar en användare från databasen baserat på användarid.
+
     public User getUser(int userId) {
         String sql = "SELECT id, name, age, registerDate FROM User WHERE id = ?";
         User user = null;
@@ -145,11 +138,7 @@ public class DatabaseHandler {
         return user;
     }
 
-    /**
-     * Uppdaterar en användares information i databasen.
-     *
-     * @param user Den uppdaterade användaren
-     */
+   // Uppdaterar en användares information i databasen.
     public void updateUser(User user) {
         String sql = "UPDATE User SET name = ?, age = ?, registerDate = ? WHERE id = ?";
 

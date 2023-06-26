@@ -25,7 +25,15 @@ learned how to perform basic database operations such as inserting, updating, an
 I also learned how to write unit tests using JUnit and Mockito to ensure the correctness of my code and simulate interactions with the database. Additionally, I enhanced my understanding of software design principles and best practices, such as separating concerns and maintaining code modularity.
 
 
-
+ [x] Fullt fungerande TODO applikation som kan hantera TODO i kommandotolken.
+ [x] Fullt fungerande tester för er applikation.
+ [x] Fullt fungerande mockning av beroenden i era tester.
+ [ ] Fullt fungerande tester genom CI på Github
+ [ ] Fullt fungerande JavaFX applikation som visar upp allt på ett snyggt sätt (frivilligt)
+ [x] Todo ska existera i en databas, antingen MongoDB eller SQLite.
+ [x] jag använder JUnit5, Mockito samt JSON In Java.
+ [x] jag  använder Maven för att bygga ert projekt.
+  []  använda Github Actions för att testa ert projekt.
 
 
 

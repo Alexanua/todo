@@ -75,10 +75,10 @@ class ToDoServiceTest {
         ResultSet resultSet = mock(ResultSet.class);
         when(resultSet.next()).thenReturn(true);
         when(resultSet.getInt("id")).thenReturn(itemId);
-        when(resultSet.getString("text")).thenReturn("Buy groceries");
+        when(resultSet.getString("text")).thenReturn("köp köt");
         when(resultSet.getBoolean("done")).thenReturn(false);
         when(resultSet.getInt("assignedTo")).thenReturn(2);
-        when(resultSet.getString("category")).thenReturn("Grocery");
+        when(resultSet.getString("category")).thenReturn("köt");
 
         // Mocka PreparedStatement för att returnera ResultSet
         PreparedStatement preparedStatement = mock(PreparedStatement.class);
@@ -105,10 +105,10 @@ class ToDoServiceTest {
 
             // Verifiera att korrekt ToDoItem skapas
             assertEquals(itemId, item.getId());
-            assertEquals("Buy groceries", item.getText());
+            assertEquals("köp köt", item.getText());
             assertFalse(item.isDone());
             assertEquals(2, item.getAssignedTo());
-            assertEquals("Grocery", item.getCategory());
+            assertEquals("köt", item.getCategory());
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -116,7 +116,7 @@ class ToDoServiceTest {
 
     @Test
     void testUpdateToDoItem() {
-        ToDoItem item = new ToDoItem(1, "Buy groceries", false, 2, "Grocery");
+        ToDoItem item = new ToDoItem(1, "köp gurka", false, 2, "HEMKÖP");
 
         // Mocka PreparedStatement
         PreparedStatement preparedStatement = mock(PreparedStatement.class);
