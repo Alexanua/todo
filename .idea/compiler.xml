@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JinTDD" />
+        <module name="MinCoolaCITest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JinTDD" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>
