@@ -150,4 +150,4 @@ If you used any third-party assets that require attribution, list the creators w
 - Maven: org.testng:testng:7.8.0
 - Maven: org.webjars:jquery:3.6.1
 - Maven: org.xerial:sqlite-jdbc:3.42.0.0
-  Please refer to the documentation of these libraries for more information on their usage and licensing terms.
+ -  Please refer to the documentation of these libraries for more information on their usage and licensing terms.
