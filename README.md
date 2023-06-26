@@ -88,7 +88,7 @@ detailed instructions and any additional setup requirements specific to your env
 
 Once the Todo app is up and running, you can use it to manage your tasks effectively. Here are some instructions for usage:
 
-Open your web browser and visit http://localhost:8080 to access the Todo app.
+
 
 Create a new task by clicking on the "Add Task" button.
 
