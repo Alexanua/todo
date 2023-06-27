@@ -29,4 +29,4 @@ jobs:
         cache: maven
 
     - name: Build with Maven
-      run: mvn -B test package --file todo/TDDproject/pom.xml
+      run: mvn -B test package --file todo-main/TDDproject/pom.xml
