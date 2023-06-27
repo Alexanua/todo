@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JinTDD" target="19" />
+      <module name="JinTDD" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
